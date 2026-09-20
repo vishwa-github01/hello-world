@@ -5,3 +5,9 @@
 ## We have clear instructions on how to create EC2 instance & create keypair & open the http & SSH & port 8080 SQ
 https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
 please go though this
+
+sudo dnf update -y
+sudo dnf install git -y
+
+installed jenkins & git into jenkins server
+cat /var/lib/jenkins/secrets/initialAdminPassword
